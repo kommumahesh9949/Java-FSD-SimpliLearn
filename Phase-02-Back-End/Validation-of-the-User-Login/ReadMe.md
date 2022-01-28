@@ -34,7 +34,7 @@ Core java concepts:
 -operators  
 -type casting  
 -class  
-- objects   
+-objects   
 -access specifiers  
 ## Other programming Concepts: -
 Control Statement: - (if, else, else if)  
@@ -43,7 +43,7 @@ Dashboard.java
 Login.java  
 Logout.java  
 ## Feasibility study: -
-- Technical analysis  
+-Technical analysis  
 -Economic Analysis  
 -performance Analysis  
 ## SWOT: -
