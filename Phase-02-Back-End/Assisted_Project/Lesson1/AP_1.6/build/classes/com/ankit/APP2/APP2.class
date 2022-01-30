@@ -1,0 +1,11 @@
+Êþº¾   7 ;  com/ankit/APP2/APP2  javax/servlet/http/HttpServlet serialVersionUID J ConstantValue        <init> ()V Code
+   
+  LineNumberTable LocalVariableTable this Lcom/afzal/APP2/APP2; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException    &javax/servlet/http/HttpServletResponse   	getWriter ()Ljava/io/PrintWriter; ! Served at: 
+ # % $ java/io/PrintWriter & ' append /(Ljava/lang/CharSequence;)Ljava/io/PrintWriter; ) + * %javax/servlet/http/HttpServletRequest , - getContextPath ()Ljava/lang/String; request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; doPost
+  4   
+SourceFile 	APP2.java RuntimeVisibleAnnotations %Ljavax/servlet/annotation/WebServlet; value /APP2 !                 
+      3     *· ±       
+                                 X     ,¹   ¶ "+¹ ( ¶ "W±       
+                       . /     0 1   2             I     *+,¶ 3±       
+    &  '                 . /     0 1   5    6 7     8  9[ s :

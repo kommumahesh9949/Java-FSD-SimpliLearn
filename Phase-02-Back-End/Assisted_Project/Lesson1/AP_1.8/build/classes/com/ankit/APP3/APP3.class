@@ -1,0 +1,15 @@
+Êþº¾   7 V  com/ankit/APP3/APP3  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/APP3/APP3; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException  fname    %javax/servlet/http/HttpServletRequest   getParameter &(Ljava/lang/String;)Ljava/lang/String;  lname   " ! &javax/servlet/http/HttpServletResponse # $ 	getWriter ()Ljava/io/PrintWriter; & <h3>Displaying Full Name</h3>
+ ( * ) java/io/PrintWriter + , print (Ljava/lang/String;)V . <hr> 0 <html><body>
+ ( 2 3 , println 5 java/lang/StringBuilder 7 Your full name is 
+ 4 9  ,
+ 4 ; < = append -(Ljava/lang/String;)Ljava/lang/StringBuilder; ?  
+ 4 A B C toString ()Ljava/lang/String; E </body></html> request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; Ljava/lang/String; out Ljava/io/PrintWriter; doPost
+  O   
+SourceFile 	APP3.java RuntimeVisibleAnnotations %Ljavax/servlet/annotation/WebServlet; value /APP3 !               /     *· ±    
+                                  Þ     ^+¹  N+¹  :,¹  :%¶ '-¶ '/¶ 1» 4Y6· 8-¶ :>¶ :¶ :¶ @¶ 1D¶ 1-¶ '±    
+   * 
+    	      "  )  0  O  V  ]     >    ^       ^ F G    ^ H I  	 U  J   K  J   C K L   M             I     *+,¶ N±    
+   
+    $  %                 F G     H I   P    Q R     S  T[ s U

@@ -1,0 +1,12 @@
+Êþº¾   7 ;  com/ankit/loginLogout/Logout  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/Afzal/loginLogout/Logout; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException    %javax/servlet/http/HttpServletRequest   
+getSession "()Ljavax/servlet/http/HttpSession;    javax/servlet/http/HttpSession   
+invalidate ! # " &javax/servlet/http/HttpServletResponse $ % 	getWriter ()Ljava/io/PrintWriter; ' Logged out of session.<br>
+ ) + * java/io/PrintWriter , - println (Ljava/lang/String;)V request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; session  Ljavax/servlet/http/HttpSession; out Ljava/io/PrintWriter; doPost
+  8   
+SourceFile Logout.java !               /     *· ±    
+                                       +¹  N-¹  ,¹   :&¶ (±    
+                   4            . /     0 1    2 3    4 5   6             I     *+,¶ 7±    
+   
+                       . /     0 1   9    :

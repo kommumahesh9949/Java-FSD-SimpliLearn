@@ -1,0 +1,12 @@
+Êþº¾   7 A  %com/ankit/URLRewriteDemo/LoginServlet  javax/servlet/http/HttpServlet serialVersionUID J ConstantValue        <init> ()V Code
+   
+  LineNumberTable LocalVariableTable this 'Lcom/afzal/URLRewriteDemo/LoginServlet; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException  userid    %javax/servlet/http/HttpServletRequest   ! getParameter &(Ljava/lang/String;)Ljava/lang/String; # java/lang/StringBuilder % Dashboard?userid=
+ " ' 
+ ( (Ljava/lang/String;)V
+ " * + , append -(Ljava/lang/String;)Ljava/lang/StringBuilder;
+ " . / 0 toString ()Ljava/lang/String; 2 4 3 &javax/servlet/http/HttpServletResponse 5 ( sendRedirect request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; userId Ljava/lang/String; doPost
+  >   
+SourceFile LoginServlet.java !                 
+      /     *· ±           	                           p      +¹  N,» "Y$· &-¶ )¶ -¹ 1 ±            	       *              6 7      8 9  	  : ;   <             I     *+,¶ =±       
+                       6 7     8 9   ?    @

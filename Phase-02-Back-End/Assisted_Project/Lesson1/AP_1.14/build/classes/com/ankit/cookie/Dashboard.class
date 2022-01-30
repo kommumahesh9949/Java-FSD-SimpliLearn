@@ -1,0 +1,18 @@
+ ˛∫æ   7 b  com/ankit/cookie/Dashboard  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/cookie/Dashboard; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException    &javax/servlet/http/HttpServletResponse   	getWriter ()Ljava/io/PrintWriter;  <html><body>
+     java/io/PrintWriter ! " println (Ljava/lang/String;)V $ & % %javax/servlet/http/HttpServletRequest ' ( 
+getCookies ()[Ljavax/servlet/http/Cookie;
+ * , + javax/servlet/http/Cookie - . getName ()Ljava/lang/String; 0 Userid
+ 2 4 3 java/lang/String 5 6 contentEquals (Ljava/lang/CharSequence;)Z
+ * 8 9 . getValue ; java/lang/StringBuilder = UserId read from cookie:
+ : ?  "
+ : A B C append -(Ljava/lang/String;)Ljava/lang/StringBuilder; E <br>
+ : G H . toString J "No UserId was found in cookie.<br> L </body></html> request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; cookie Ljavax/servlet/http/Cookie; cookies [Ljavax/servlet/http/Cookie; found Z out Ljava/io/PrintWriter; i I StackMapTable T doPost
+  _   
+SourceFile Dashboard.java !               /     *∑ ±    
+                                 [     ÇN:6,π  :∂ +π # :∆ M6ß ?2N-∂ )/∂ 1ô *-∂ 7∆ #ª :Y<∑ >-∂ 7∂ @D∂ @∂ F∂ 6Ñæ°ˇøö 
+I∂ K∂ ±    
+   F                 $  *  0  C  `  c  n   s ! z # Å %    R    Ç       Ç M N    Ç O P   Ä Q R   } S T   z U V   r W X  ' G Y Z  [   # ˇ *   $  * \   8˙   ]             I     *+,∂ ^±    
+   
+    )  *                 M N     O P   `    a

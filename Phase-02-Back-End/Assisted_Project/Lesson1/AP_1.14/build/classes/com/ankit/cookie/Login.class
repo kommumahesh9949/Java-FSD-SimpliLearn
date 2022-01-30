@@ -1,0 +1,11 @@
+Êþº¾   7 9  com/ankit/cookie/Login  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/cookie/Login; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException  javax/servlet/http/Cookie  Userid    %javax/servlet/http/HttpServletRequest   getParameter &(Ljava/lang/String;)Ljava/lang/String;
+     ! '(Ljava/lang/String;Ljava/lang/String;)V # % $ &javax/servlet/http/HttpServletResponse & ' 	addCookie (Ljavax/servlet/http/Cookie;)V ) 	dashboard # + , - sendRedirect (Ljava/lang/String;)V request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; userId Ljavax/servlet/http/Cookie; doPost
+  6   
+SourceFile 
+Login.java !               /     *· ±    
+                                  v     "» Y+¹  · N,-¹ " ,(¹ * ±    
+            !     *    "       " . /    " 0 1    2 3   4             I     *+,¶ 5±    
+   
+                       . /     0 1   7    8

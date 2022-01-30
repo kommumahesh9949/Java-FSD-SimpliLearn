@@ -1,0 +1,11 @@
+Êþº¾   7 S  com/ankit/APP1/PostHandler  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/APP1/PostHandler; doPost R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException    &javax/servlet/http/HttpServletResponse   	getWriter ()Ljava/io/PrintWriter;  <html><body>
+     java/io/PrintWriter ! " println (Ljava/lang/String;)V $ <hr>
+  & ' " print )  <h3>Welcome to Post Handler</h3> + name - / . %javax/servlet/http/HttpServletRequest 0 1 getParameter &(Ljava/lang/String;)Ljava/lang/String; 3 password 5 java/lang/StringBuilder 7 The Enterd Name is =
+ 4 9  "
+ 4 ; < = append -(Ljava/lang/String;)Ljava/lang/StringBuilder; ? <br>Pasword is =
+ 4 A B C toString ()Ljava/lang/String; E </body></html> request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; out Ljava/io/PrintWriter; Ljava/lang/String; 
+SourceFile PostHandler.java RuntimeVisibleAnnotations %Ljavax/servlet/annotation/WebServlet; value /PostHandler !               /     *· ±    
+                                  ã     _,¹  N-¶ -#¶ %-(¶ %-#¶ %+*¹ , :+2¹ , :-» 4Y6· 8¶ :>¶ :¶ :¶ @¶ -D¶ -#¶ %±    
+   .               )  3  R  X  ^     >    _       _ F G    _ H I   X J K  ) 6 + L  3 , 3 L   M    N O     P  Q[ s R

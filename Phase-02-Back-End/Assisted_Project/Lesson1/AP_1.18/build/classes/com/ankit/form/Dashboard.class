@@ -1,0 +1,13 @@
+Êþº¾   7 O  com/ankit/form/Dashboard  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/form/Dashboard; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException    &javax/servlet/http/HttpServletResponse   	getWriter ()Ljava/io/PrintWriter;  <html><body>
+     java/io/PrintWriter ! " println (Ljava/lang/String;)V $ userid & ( ' %javax/servlet/http/HttpServletRequest ) * getParameter &(Ljava/lang/String;)Ljava/lang/String; , 6<h3>No UserId was found in hidden form field.</h3><br> . java/lang/StringBuilder 0 ,<h3>UserId found in hidden form field: </h3>
+ - 2  "
+ - 4 5 6 append -(Ljava/lang/String;)Ljava/lang/StringBuilder; 8 <br>
+ - : ; < toString ()Ljava/lang/String; > </body></html> request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; out Ljava/io/PrintWriter; userId Ljava/lang/String; StackMapTable I java/lang/String doPost
+  L   
+SourceFile Dashboard.java !               /     *· ±    
+                                  Ê     F,¹  N-¶ +#¹ % :Ç -+¶ § -» -Y/· 1¶ 37¶ 3¶ 9¶ -=¶ ±    
+   & 	            "  %  ?  E     4    F       F ? @    F A B   ? C D   / E F  G    ý %  H  J             I     *+,¶ K±    
+   
+                       ? @     A B   M    N

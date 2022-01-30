@@ -1,0 +1,10 @@
+Êþº¾   7 <  com/ankit/HTTP/LoginServlet  javax/servlet/http/HttpServlet <init> ()V Code
+  	   LineNumberTable LocalVariableTable this Lcom/afzal/HTTP/LoginServlet; doGet R(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V 
+Exceptions  javax/servlet/ServletException  java/io/IOException  userid    %javax/servlet/http/HttpServletRequest   getParameter &(Ljava/lang/String;)Ljava/lang/String;      
+getSession "()Ljavax/servlet/http/HttpSession; " $ # javax/servlet/http/HttpSession % & setAttribute '(Ljava/lang/String;Ljava/lang/Object;)V ( 	Dashboard * , + &javax/servlet/http/HttpServletResponse - . sendRedirect (Ljava/lang/String;)V request 'Ljavax/servlet/http/HttpServletRequest; response (Ljavax/servlet/http/HttpServletResponse; userId Ljava/lang/String; session  Ljavax/servlet/http/HttpSession; doPost
+  9   
+SourceFile LoginServlet.java !               /     *· ±    
+                                  †     $+¹  N+¹  :-¹ ! ,'¹ ) ±    
+        	      #     4    $       $ / 0    $ 1 2  	  3 4    5 6   7             I     *+,¶ 8±    
+   
+                       / 0     1 2   :    ;

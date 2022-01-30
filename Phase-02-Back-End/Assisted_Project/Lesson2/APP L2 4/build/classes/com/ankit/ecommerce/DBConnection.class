@@ -1,0 +1,10 @@
+Êþº¾   7 4   com/ankit/ecommerce/DBConnection  java/lang/Object 
+connection Ljava/sql/Connection; <init> 9(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 
+Exceptions   java/lang/ClassNotFoundException  java/sql/SQLException Code
+     ()V  com.mysql.cj.jdbc.Driver
+    java/lang/Class   forName %(Ljava/lang/String;)Ljava/lang/Class;
+    java/sql/DriverManager   getConnection M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;	  !   LineNumberTable LocalVariableTable this "Lcom/Afzal/ecommerce/DBConnection; dbURL Ljava/lang/String; user pwd ()Ljava/sql/Connection; closeConnection - / . java/sql/Connection 0  close StackMapTable 
+SourceFile DBConnection.java !                	     
+     i     *· ¸ W*+,-¸ µ  ±    "       
+   
+    #   *     $ %      & '     ( '     ) '    *     /     *´  °    "        #        $ %    +   	         L     *´  Æ *´  ¹ , ±    "            #        $ %   1      2    3
