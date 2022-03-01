@@ -40,7 +40,7 @@ Weakness- there can be very small chances that the specific resources required b
 user can't be available in the data  
 Opportunity- In this future admin can delete/remove user feedback after implementing 
 some mechanism .and given to the star rating according to their classes.  
-Thread - without internet connectivity is not working  
+Thread - without internet connectivity is not working.  
 ## Conclusion: -
 For the small screen, you’ll want to declutter the mobile version of your site, keeping 
 only the most crucial elements visible. Furthermore, pay attention to the fonts and 
